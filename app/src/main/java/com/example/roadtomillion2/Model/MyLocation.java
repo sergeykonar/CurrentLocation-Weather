@@ -10,11 +10,11 @@ public class MyLocation extends Location {
         this.location = l;
     }
 
-    static String getLat(){
+    public static String getLat(){
         return String.valueOf(location.getLatitude());
     }
 
-    static String getLng(){
+    public static String getLng(){
         return String.valueOf(location.getLongitude());
     }
 }
