@@ -31,6 +31,7 @@ class MyLocationListener implements LocationListener {
         Log.v(TAG, longitude);
         String latitude = "Latitude: " + location.getLatitude();
         Log.v(TAG, latitude);
+
         MyLocation myLocation = new MyLocation(location);
 
 
