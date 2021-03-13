@@ -2,9 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_info"
         android:orderInCategory="100"
-        android:title="tion_settings"
+
+        android:title="Info"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_add"
@@ -12,10 +13,5 @@
         android:title="add"
         android:icon="@android:drawable/ic_menu_add"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/action_clear"
-        android:orderInCategory="20"
-        android:title="clear"
-        android:icon="@android:drawable/ic_menu_close_clear_cancel"
-        app:showAsAction="ifRoom" />
+
 </menu>
